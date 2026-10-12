@@ -1,0 +1,30 @@
+{
+  "name": "smart-ai-timetable-backend",
+  "version": "1.0.0",
+  "description": "RESTful API and Constraint Satisfaction Backend for Smart AI Time Table Generator",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "timetable",
+    "ai",
+    "scheduling",
+    "csp",
+    "express",
+    "mongodb"
+  ],
+  "author": "Smart AI Scheduling Systems",
+  "license": "MIT",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.117.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "name": "smart-ai-timetable-generator",
+  "version": "2.5.0",
+  "description": "Smart AI Time Table Generator with Role Auth, Substitute Engine, MongoDB, n8n Automation and Docker Deployment",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js",
+    "build": "cd frontend && npm run build",
+    "build:frontend": "cd frontend && npm run build",
+    "build:client": "cd frontend && npm run build",
+    "seed": "node backend/seed.js",
+    "docker:build": "docker compose build",
+    "docker:up": "docker compose up -d",
+    "docker:down": "docker compose down",
+    "docker:logs": "docker compose logs -f"
+  },
+  "keywords": [
+    "ai-timetable",
+    "scheduling",
+    "mongodb",
+    "n8n",
+    "docker",
+    "express"
+  ],
+  "author": "Smart Academic Institution",
+  "license": "MIT",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.117.2",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.0",
+    "sqlite3": "^6.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}

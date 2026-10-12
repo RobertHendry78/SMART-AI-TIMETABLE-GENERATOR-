@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Smart Timetable</string>
+    <string name="title_activity_main">Smart Timetable</string>
+    <string name="package_name">com.suguna.timetable</string>
+    <string name="custom_url_scheme">com.suguna.timetable</string>
+</resources>
